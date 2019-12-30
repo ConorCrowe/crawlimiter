@@ -1,0 +1,11 @@
+{
+  "name": "crawlimiter",
+  "version": "1.0.0",
+  "description": "General limiter for crawling/api requests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Conor Crowe",
+  "license": "MIT"
+}
