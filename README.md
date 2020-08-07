@@ -18,7 +18,7 @@ const apiLimiter = new Crawlimiter([
 Once the limiter has been declared, requests can be queued using the enqueue method. Crawlimiter will resolve the promise to true if quota is available for the request. Requests will wait in the queue if no quota is available.
 
 ```JavaScript
-var result = apiLimiter.enqueue(i);
+var result = apiLimiter.enqueue();
 
 result.then(ticket => {
     if(ticket){
