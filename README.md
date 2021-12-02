@@ -1,7 +1,7 @@
 # crawlimiter
 
 ## About
-Crawlimiter is a promise-based rate limiter for node.js which is useful for crawling/api requests. Crawlimiter uses hierarchical token buckets to handle multi-level rate limits and also a request queue.
+Crawlimiter is a promise-based rate limiter for node.js which is useful for crawling/api requests. Crawlimiter uses hierarchical token buckets to handle multi-level rate limits and also provides a request queue.
 
 ## Usage
 Import Crawlimiter module and declare a new limiter. Crawlimiter takes a list of rate limits. Each rate limit must contain the total number of requests and a time interval given in seconds. Also supports an optional initial quota field (if none given, initial quota will default to the request limit). The order in which the limits are provided does not matter.
